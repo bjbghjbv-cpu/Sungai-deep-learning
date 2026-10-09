@@ -1,9 +1,5 @@
 # 🌊 SungaiMata — Sistem Pemantauan Pencemaran Sungai Berbasis AI
 
-**SungaiMata** adalah platform *citizen science* untuk memantau kualitas air sungai di Indonesia. Warga mengunggah foto sungai → AI menganalisis jenis & tingkat pencemaran → Hasil divisualisasikan di peta interaktif + rekomendasi tindakan nyata.
-
----
-
 ## ✨ Fitur Utama
 
 | Fitur | Deskripsi |
@@ -75,6 +71,8 @@ DATABASE_URL="file:./dev.db"
 
 ### 3. Setup Database
 ```bash
+'DATABASE_URL="file:./dev.db"' | Out-File -Encoding utf8 .env
+type .env harus ada DATABASE_URL="file:./dev.db"
 npx prisma generate
 npx prisma db push
 npm run seed          # Optional: isi data dummy
