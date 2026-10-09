@@ -54,7 +54,7 @@
 ### 1. Clone & Install
 ```bash
 git clone  https://github.com/bjbghjbv-cpu/Sungai-deep-learning.git
-cd sungaimata
+cd C:\namafolder\Sungai-deep-learning
 npm install
 ```
 
