@@ -53,7 +53,7 @@
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/<username>/sungaimata.git
+git clone  https://github.com/bjbghjbv-cpu/Sungai-deep-learning.git
 cd sungaimata
 npm install
 ```
